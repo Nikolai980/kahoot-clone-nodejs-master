@@ -24,7 +24,7 @@ var players = new Players();
 //Mongodb setup
 var MongoClient = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
-var url = "mongodb://localhost:8007/";
+var url = "mongodb+srv://ss:Gzgd9lW7IHuJBO5G@cluster0.qqn79.mongodb.net/test";
 var hostIdNewOne =1 ;
 app.use(express.static(publicPath));
 //mqtt connection
